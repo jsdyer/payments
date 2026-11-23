@@ -1,5 +1,9 @@
 # JSD Payments — RTR sandbox explorer
 
+<!-- coolcode:guide -->
+Start with Test authentication and Heartbeat, then inspect the response status and message fields before trying a payment scenario. HTTP 200 alone does not mean acceptance; exported exchanges redact tokens but can still contain request data you entered.
+<!-- /coolcode:guide -->
+
 A small, framework-free PHP application for Payments Canada's `rtr-sandbox-product`. Browser workbench and command-line client share the same client. PHP 8.2+; no Composer, Node build, database or framework.
 
 ## Start locally
